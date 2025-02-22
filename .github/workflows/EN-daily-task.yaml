@@ -16,4 +16,4 @@ jobs:
         with:
           project-number: 3
           project-github-token: ${{ secrets.GH_TOKEN_PROJECT_WRITE }}
-          template: `.github/issues/design/EN-daily-task.md`
+          template: ".github/issues/design/EN-daily-task.md"
