@@ -1,5 +1,7 @@
 name: EN Daily Task
 on:
+  workflow_dispatch:
+    branches: [ main ]
   schedule:
     - cron: 20 07 * * 1
 
