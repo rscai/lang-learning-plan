@@ -37,8 +37,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           TITLE: English listening excercise "$(date +'%Y-%m-%d')"
-          ASSIGNEES: @me
-          LABELS: English
+          ASSIGNEES: "@me"
+          LABELS: english
           PROJECT: Language Learning
           BODY: |
             ### Agenda
