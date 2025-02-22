@@ -28,8 +28,8 @@ jobs:
             --title "$TITLE" \
             --assignee "$ASSIGNEES" \
             --label "$LABELS" \
-            --body "$BODY" \
-            --project "$PROJECT")
+            --body "$BODY") \
+            #--project "$PROJECT")
           if [[ $PINNED == true ]]; then
             gh issue pin "$new_issue_url"
           fi
