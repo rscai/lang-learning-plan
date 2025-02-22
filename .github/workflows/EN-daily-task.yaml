@@ -39,7 +39,7 @@ jobs:
           TITLE: English listening excercise "$(date +'%Y-%m-%d')"
           ASSIGNEES: rscai
           LABELS: english
-          PROJECT: Language Learning
+          PROJECT: "Language Learning"
           BODY: |
             ### Agenda
 
